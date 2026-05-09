@@ -1,0 +1,2 @@
+https://leetcode.com/problems/managers-with-at-least-5-direct-reports/submissions/1998963021/?envType=study-plan-v2&envId=top-sql-50
+select e.name from Employee e join Employee m on e.id=m.managerId group by m.managerId Having Count(e.id)>=5;
