@@ -1,0 +1,2 @@
+https://leetcode.com/problems/classes-with-at-least-5-students/submissions/2005860238/?envType=study-plan-v2&envId=top-sql-50
+select class from Courses group by class having COUNT(student)>=5;
